@@ -1,0 +1,42 @@
+#time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    height: 60px;
+    
+}
+
+#controls button{
+    height: 26px;
+    width: 26px;
+    margin: 2px;
+    background-color: white;
+    font-size: 20px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+#controls button:hover{
+    color:grey;
+    background-color: lightblue;
+    height: 28px;
+    width: 28px;
+}
